@@ -15,6 +15,6 @@ public class HelloMessageRestController {
 
     @GetMapping(value = "/query")
     public String sayHello(@RequestParam String name) {
-        return "Hello " + name + " from Bridgelabz";
+        return "Hello " + name + " from Bridgelabz ";
     }
 }
